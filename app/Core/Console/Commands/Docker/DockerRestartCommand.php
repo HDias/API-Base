@@ -35,6 +35,5 @@ class DockerRestartCommand extends Command
         $this->info('Recreating containers...');
         Artisan::call('docker:down');
         Artisan::call('docker:up');
-
     }
 }

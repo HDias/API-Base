@@ -34,6 +34,5 @@ class DockerDownCommand extends Command
         $this->runInTerminal('docker-compose down');
 
         $this->info('Done!');
-
     }
 }

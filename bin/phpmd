@@ -1,0 +1,1 @@
+vendor/bin/phpmd app/ text naming,cleancode,codesize,controversial,design,unusedcode,codesize --reportfile phpmd-app.txt

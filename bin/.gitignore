@@ -1,0 +1,8 @@
+*
+!.gitignore
+!README.md
+!built-in-dev
+!built-in-prod
+!phpcs
+!phpmd
+!rm-migrations

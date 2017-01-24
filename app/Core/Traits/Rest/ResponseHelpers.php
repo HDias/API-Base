@@ -33,7 +33,7 @@ trait ResponseHelpers
      * @param int $statusCode
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function badRequest($message='Bad request', $statusCode=400)
+    protected function badRequest($message = 'Bad request', $statusCode = 400)
     {
         return $this->ApiResponse($message, $statusCode);
     }
@@ -45,7 +45,7 @@ trait ResponseHelpers
      * @param int $statusCode
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function modelNotFound($message='Record not found', $statusCode=404)
+    protected function modelNotFound($message = 'Record not found', $statusCode = 404)
     {
         return $this->ApiResponse($message, $statusCode);
     }
@@ -57,7 +57,7 @@ trait ResponseHelpers
      * @param int $statusCode
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function notFound($message='Not found', $statusCode=404)
+    protected function notFound($message = 'Not found', $statusCode = 404)
     {
         return $this->ApiResponse($message, $statusCode);
     }
@@ -69,7 +69,7 @@ trait ResponseHelpers
      * @param int $statusCode
      * @return \Illuminate\Http\JsonResponse
      */
-    protected function methodNotAllowed($message='Method not allowed', $statusCode=405)
+    protected function methodNotAllowed($message = 'Method not allowed', $statusCode = 405)
     {
         return $this->ApiResponse($message, $statusCode);
     }

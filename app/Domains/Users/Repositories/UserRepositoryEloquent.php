@@ -2,7 +2,6 @@
 
 namespace App\Domains\Users\Repositories;
 
-
 use App\Domains\Users\User;
 use App\Domains\Users\Presenters\UserPresenter;
 use Prettus\Repository\Eloquent\BaseRepository;
