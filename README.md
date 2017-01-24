@@ -2,21 +2,6 @@
 
 [![Build Status](https://travis-ci.org/mauri870/api-skeleton-laravel.svg?branch=master)](https://travis-ci.org/mauri870/api-skeleton-laravel)
 
-## Table of Contents
-
-- <a href="#installation">Installation</a>
-- <a href="#api-debug">API Debug</a>
-- <a href="#default-routes">Default Routes</a>
-- <a href="#authentication">Authentication</a>
-- <a href="#transformers">Transformers</a>
-- <a href="#responses-and-errors">Responses and Errors</a>
-    - <a href="#validation-errors">Validation Errors</a>
-- <a href="#swagger-documentation">Swagger Documentation</a>
-- <a href="#docker">Docker</a>
-- <a href="#caddy">Caddy</a>
-- <a href="#commands">Commands</a>
-- <a href="#testing">Testing</a>
-
 ## Installation
 
 ```bash
